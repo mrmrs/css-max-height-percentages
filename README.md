@@ -120,7 +120,7 @@ or download the css on github and include in your project.
 .mxhi-99 {   max-height: 99%; }
 .mxhi-100  { max-height: 100%; }
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .mxhi-1-ns  {  max-height: 1%; }
   .mxhi-2-ns  {  max-height: 2%; }
   .mxhi-3-ns  {  max-height: 3%; }
@@ -223,7 +223,7 @@ or download the css on github and include in your project.
   .mxhi-100-ns {  max-height: 100%; }
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .mxhi-1-m  {  max-height: 1%; }
   .mxhi-2-m  {  max-height: 2%; }
   .mxhi-3-m  {  max-height: 3%; }
@@ -326,7 +326,7 @@ or download the css on github and include in your project.
   .mxhi-100-m {  max-height: 100%; }
 }
 
-@include break(large) {
+@media screen and (min-width: 64em)  {
   .mxhi-1-l  {  max-height: 1%; }
   .mxhi-2-l  {  max-height: 2%; }
   .mxhi-3-l  {  max-height: 3%; }
