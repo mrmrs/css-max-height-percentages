@@ -20,7 +20,8 @@ View on [npm](https://www.npmjs.org/package/css-max-height-percentages)
 ## File Size
 
 14K max-height-percentages.css
-10K max-height-percentages.min.css
+10K max-height-percentages.min.css 
+1minified and gzipped
 
 ## The Code
 ```
